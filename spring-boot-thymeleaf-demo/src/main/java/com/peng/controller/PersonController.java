@@ -41,4 +41,5 @@ public class PersonController {
         personServiceImp.delete(name);
         return "redirect:/person/list";
     }
+
 }
